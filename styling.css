@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+/*style  body by adding background image and set it to cover, add font-family  */
+body{
+    font-family: Arvo, serif;
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1466-1024x683.jpeg) no-repeat center center;
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
+/*Style brand*/
+.logo{
+    height: 35px;
+}
+
+/* Style navigaion bar */
+.bg-dark{
+   background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar-nav li{
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0px;
+}
+
+.navbar-nav li:hover{
+    border-bottom: 1px solid #00ffb8;
+    cursor: pointer;
+    padding-bottom: 9px;
+}
+
+.navbar-nav li > a:hover{
+    color: white !important;
+}
+
+/*Style jumbotron */
+
+.jumbo_container{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+/*limit the width icons section */
+.container{
+    max-width: 1000px
+}
+/*Style icons section using bootstrap gird system */
+
+.bodyimage{
+    height: 150px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+
+.icons p {
+    font-size: 15px;
+}
+
+/*Style contact button */
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px
+}
+
+.btn{
+    color: white;
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0, 0.5);
+    color: #fff;
+    border: none;
+}
+
+/*Style footer*/
+.footer{
+    background-color: rgba(0,0,0, 0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+/*media query to change the size of icons in small devices */
+
+@media (max-width: 768px){
+    .bodyimage{
+        height: 120px;
+    }
+}
